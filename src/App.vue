@@ -91,6 +91,10 @@ header {
     text-transform: uppercase;
     margin-bottom: 30px;
 
+    @media screen and (max-width: 500px) {
+      font-size: 28px;
+    }
+
     strong {
       color: #313131;
     }
@@ -133,6 +137,10 @@ header {
         color: #fff;
         background-color: #313131;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+      }
+
+      @media screen and (max-width: 500px) {
+        max-width: 300px;
       }
     }
   }
